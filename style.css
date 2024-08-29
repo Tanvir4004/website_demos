@@ -1,0 +1,626 @@
+*  {
+
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    
+    text-decoration: none;
+
+
+}
+
+html  {
+
+    scroll-behavior: smooth;
+}
+
+.italic-font  {
+
+    font-family: 'italianno', cursive;
+}
+
+/* header section start */
+header  {
+
+    background-color: rgb(50, 50, 128);
+    width: 100%;
+
+}
+.header-container  {
+
+    
+    background-color: rgb(50, 50, 128);
+    height: 15vh;
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 1000;
+    width: 100%;
+    
+}
+.nav  {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+
+
+.header-logo  {
+
+        margin:20px 20px;
+}
+.header-logo img {
+
+        width:90px;
+        height: 90px;
+        
+}
+.manu   {
+
+    color: rgb(124, 43, 43);
+    text-transform: uppercase;
+    
+
+    
+
+}
+.manu ul {
+
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+
+}
+
+.manu ul li  {
+
+    font-size: 22px;
+    padding: 15px;
+    text-align: right;
+    
+    
+  
+}
+
+
+.menu-links  {
+
+color: white;
+border: 1px;
+
+
+}
+
+.btn  {
+
+    margin-left: 50px;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border-radius: 10px;
+}
+
+
+.menu-links:hover  {
+
+    background-color: rgb(9, 9, 78);
+    
+
+}
+
+
+.btn:hover  {
+
+    background-color: aqua;
+    transform: scale(2)
+}
+
+/* login button start */
+
+.body-login-page  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+  }
+  .center h1{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+  }
+  .center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+  }
+  .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+  }
+  .txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+  }
+  .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+  }
+  .txt_field input:focus ~ span::before,
+  .txt_field input:valid ~ span::before{
+    width: 100%;
+  }
+  .pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+  }
+  .pass:hover{
+    text-decoration: underline;
+  }
+  input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+  }
+  input[type="submit"]:hover{
+    border-color: #2691d9;
+    transition: .5s;
+  }
+  .signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+  }
+  .signup_link a{
+    color: #2691d9;
+    text-decoration: none;
+  }
+  .signup_link a:hover{
+    text-decoration: underline;
+  }
+
+/* login button end */
+
+
+
+/* header section ends */
+
+/* main section starts */
+
+
+.main-container  {
+    padding-top: 200px;
+    background-image: url("images/bg-photo.jpg"); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:85vh;
+    width:100%;
+    height: 100%;
+    background-size: 100%;
+    
+}
+
+.main-container img  {
+    
+}
+
+.search-button  {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.main-search-btn  {
+
+    font-size: 40px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+  
+}
+
+#apartments  {
+
+    margin-top: 100px;
+}
+#apartments h2 {
+text-align: center;
+font-size: 50px;
+color: rgb(255, 255, 255);
+
+}
+
+.cards  {
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 30px;
+
+}
+
+.card  {
+    width:200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid brown;
+    margin:20px;
+    
+    
+    
+    
+
+}
+
+.card:hover  {
+
+    transform: scale(1.05);
+    background-color: blueviolet;
+}
+
+.card img {
+
+    width:100%;
+    height: 100px;
+
+}
+
+.card-heading  {
+
+    height:30px;
+    color: brown;
+    margin-top: 10px;
+
+}
+
+.card-details  {
+
+    height:50px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    overflow:hidden;
+
+}
+
+.card-btn  {
+
+        width: 90%;
+        font-size: 25px;
+        margin-top:15px;
+        border-radius: 5px;
+        background-color: rgb(9, 141, 141);
+        
+        
+        font-weight: bolder;
+        color: white;
+        
+
+}
+
+.card-contact-btn  {
+
+        width:60%;
+        font-size:20px;
+        margin-top: 20px;
+        margin-bottom: 3px;
+        border-radius: 10px;
+        background-color: rgb(34, 155, 23);
+        font-weight: bolder;
+        color: white;
+}
+
+.card-contact-btn:hover  {
+
+    transform: scale(1.1);
+    background-color: rgb(24, 87, 17);
+}
+
+/* about us section start */
+#about-us  {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 75%;
+    justify-content: center;
+
+}
+
+.about-us-heading  {
+
+    margin-top: 25px;
+    text-align: center;
+    
+
+}
+
+.about-us-detsils  {
+
+    margin: 15px 0;
+    text-align: justify;
+}
+/* main section ends */
+
+
+/* footer section start */
+footer  {
+
+    
+     }
+#contact  {
+
+
+            background-color: rgb(50, 50, 128);
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 15px;
+}
+     .copyright-text  {
+    
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            padding: 20px;
+            text-align: left;
+            
+    
+     }
+    
+    .social-media  {
+    
+            color: rgb(196, 35, 35);
+            text-align: right;
+            align-items: flex-end;
+            
+    
+     }
+    
+    
+    
+    .social-media-icon  {
+    
+            color: white;
+            font-size: 40px;
+            padding: 20px;
+    
+    
+     }
+    
+     .social-media-icon:hover  {
+    
+            transform: scale(1.05);
+            color: aqua;
+            
+     }
+/* footer section ends */
+
+
+/* responsive section */
+@media (max-width:992px){
+
+   
+
+}
+
+@media (max-width:920px){
+    .header-container  {
+
+        
+    }
+    .manu   {
+
+        color: rgb(124, 43, 43);
+        text-transform: uppercase;
+ 
+    }
+
+    .manu ul li  {
+
+        font-size: 20px;
+        padding: 10px;
+        text-align: right;
+
+    }
+
+    .btn  {
+
+        margin-left: 20px;
+        padding: 10px 20px;
+        background-color: rgb(255, 255, 255);
+        color:black;
+        border-radius: 10px;
+    }
+
+    /* about me section start */
+
+   
+   
+
+}
+
+
+@media (max-width:710px){
+
+    .header-container  {
+
+    
+        background-color: rgb(50, 50, 128);
+        height: auto;
+        position: fixed;
+        top:0px;
+        left:0px;
+        z-index: 1000;
+        width: 100%;
+        
+    }
+
+    .nav  {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        
+       
+    }
+    .header-logo  {
+
+        margin:10px 10px;
+}
+    .header-logo img {
+
+        width:40px;
+        height: 40px;
+        border:.5px solid rgb(250, 238, 238);
+        border-radius: 100%;
+}
+.manu   {
+
+    color: rgb(124, 43, 43);
+    text-transform: uppercase;
+    
+
+    
+
+}
+
+    .manu ul  {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .manu ul li  {
+        
+        font-size: 15px;
+        padding: 10px;
+        padding-top: 3px;
+        text-align: center;
+
+    }
+
+    .btn  {
+        margin-left: 0px;
+        text-align: center;
+        padding: 10px 20px;
+        background-color: rgb(255, 255, 255);
+        color:black;
+        border-radius: 10px;
+    }
+
+    #about-us  {
+
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width:100%;
+        padding: 10px;
+        height: 60vh;
+       
+    
+    }
+    
+    .about-us-heading  {
+    
+        margin-top: 25px;
+        text-align: center;
+        
+    
+    }
+    
+    .about-us-detsils  {
+    
+        margin: 15px 0;
+        text-align: justify;
+    }
+
+    #contact  {
+
+
+        background-color: rgb(50, 50, 128);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 15px;
+}
+
+.copyright-text  {
+
+        text-align: center;
+}
+
+.social-media  {
+
+    text-align: center;
+}
+    
+}
